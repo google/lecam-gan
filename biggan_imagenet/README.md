@@ -7,8 +7,8 @@ model.
 
 Clone this repository
 ```
-git clone https://github.com/google/LeCamGAN.git
-cd LeCamGAN/biggan_imagenet
+git clone https://github.com/google/lecam-gan.git
+cd lecam-gan/biggan_imagenet
 ```
 
 Install packages
@@ -30,7 +30,6 @@ You can specify the index of desired class with the `--class` command.
 ## Colab
 
 You can use the Colab `LeCamGAN_Demo.ipynb` to load our model and generate the images.
-
 
 ## Notes
 This repository is built based one the Implementation from [compare\_gan](https://github.com/google/compare_gan). Our models are trained using TPUs.
