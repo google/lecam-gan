@@ -7,16 +7,17 @@ CIFAR dataset.
 
 Clone this repository
 ```
-git clone https://github.com/google/LeCamGAN.git
-cd LeCamGAN/biggan_cifar
+git clone https://github.com/google/lecam-gan.git
+cd lecam-gan/biggan_cifar
 ```
 
-Install packages
+Install packages, refer to the Pytorch [webpage](https://pytorch.org/get-started/locally/) for installing with different CUDA versions
 ```
 conda create --name lcgan_pytorch python=3.6
 conda activate lcgan_pytorch
-conda install pytorch torchvision -c pytorch
-pip install tensorflow==1.14
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+conda install -c anaconda tensorflow-gpu==1.14
+pip install -r requirements.txt
 ```
 
 ## Training
@@ -27,7 +28,7 @@ CUDA_VISIBLE_DEVICES=0,1 bash ./scripts/lc-biggan-cifar10-0.2.sh
 ```
 
 ## Testing
-Calculating the ID/FID scores with three evaluation runs:
+Calculating the IS/FID scores with three evaluation runs:
 ```
 CUDA_VISIBLE_DEVICES=0,1 python eval.py --repeat 3 --dataset C10 --network
 weights/lc-biggan-cifar10-0.2/G_ema_best.pth

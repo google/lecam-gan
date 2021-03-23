@@ -1,0 +1,10 @@
+.DS_Store
+!**/__pycache__/
+*.pyc
+
+biggan_cifar/.cache
+biggan_cifar/*.pkl
+biggan_cifar/data
+biggan_cifar/samples
+biggan_cifar/logs
+biggan_cifar/weights

@@ -13,8 +13,8 @@ the exisiting data augmentation approches.
 Please cite our paper if you find the code or dataset useful for your research.
 
 Regularizing Generative Adversarial Networks under Limited Data<br>
-[Hung-Yu Tseng](https://hytseng0509.github.io/), [Lu Jiang](http://www.lujiang.info/), [Ce Liu](http://people.csail.mit.edu/celiu/), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/), Weilong Yang<br>
-In CVPR, 2021
+[Hung-Yu Tseng](https://hytseng0509.github.io/), [Lu Jiang](http://www.lujiang.info/), [Ce Liu](http://people.csail.mit.edu/celiu/), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/), [Weilong Yang](https://www.linkedin.com/in/weilongyang/)<br>
+Computer Vision and Pattern Recognition (CVPR), 2021
 ```
 @inproceedings{tseng2021lcgan,
   author = {Tseng, Hung-Yu and Jiang, Lu and Liu, Ce and Yang, Ming-Hsuan and Yang, Weilong},
@@ -25,7 +25,7 @@ In CVPR, 2021
 ```
 
 <div align="center">
-  <img src="images/framework.png" width="800px" />
+  <img src="imgs/framework.png" width="800px" />
 </div>
 
 ## Installation and Usage

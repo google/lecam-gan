@@ -13,6 +13,8 @@
 # limitations under the License.
 # ==============================================================================
 
+import sys
+sys.path.append("..")
 from third_party import utils
 from third_party.run_train import run
 
