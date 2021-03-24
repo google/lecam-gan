@@ -1,7 +1,7 @@
 <img src='imgs/teaser.png' width="800px">
 
 # Regularizing Generative Adversarial Networks under Limited Data
-[[Project Page]]()[[Paper]]()[[Video]]()
+[[Project Page]](https://hytseng0509.github.io/lecam-gan)[[Paper]]()
 
 Implementation for our GAN regularization method. The proposed regularization 1)
 improves the performance of GANs under limited training data, and 2) complements

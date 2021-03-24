@@ -15,8 +15,7 @@ Install packages
 ```
 conda create --name lcgan_tf python=3.6
 conda activate lcgan_tf
-pip install tensorflow==1.14
-pip install -e .
+pip install -r requirements.txt
 ```
 
 ## Testing
