@@ -16,10 +16,10 @@ Regularizing Generative Adversarial Networks under Limited Data<br>
 [Hung-Yu Tseng](https://hytseng0509.github.io/), [Lu Jiang](http://www.lujiang.info/), [Ce Liu](http://people.csail.mit.edu/celiu/), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/), [Weilong Yang](https://www.linkedin.com/in/weilongyang/)<br>
 Computer Vision and Pattern Recognition (CVPR), 2021
 ```
-@inproceedings{tseng2021lcgan,
+@inproceedings{lecamgan,
   author = {Tseng, Hung-Yu and Jiang, Lu and Liu, Ce and Yang, Ming-Hsuan and Yang, Weilong},
-  booktitle = {CVPR},
   title = {Regularing Generative Adversarial Networks under Limited Data},
+  booktitle = {CVPR},
   year = {2021}
 }
 ```

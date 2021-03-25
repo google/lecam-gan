@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ### Preparation
-Copy the file `lecam_loss.py` to the stylegan repository
+Copy the file `lecam_loss.py` to the stylegan2 [repository]((https://github.com/NVlabs/stylegan2-ada))
 
 Please refer to the instruction [here](https://github.com/NVlabs/stylegan2-ada) for processing the dataset.
 Specifically, please use to the `num_samples` configuration in the
@@ -29,4 +29,4 @@ Specifically, please use to the `num_samples` configuration in the
 Please refer to the scripts we provide in the `scripts` folder.
 
 ## Notes
-This repository is built based one the Implementation from [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada).
+This repository is built based on the implementation from [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada).

@@ -37,4 +37,4 @@ You can change the trained model file and dataset using the `--network` and
 `--dataset` commands.
 
 ## Notes
-This repository is built based one the Implementation from [DiffAug](https://github.com/mit-han-lab/data-efficient-gans/tree/master/DiffAugment-biggan-cifar).
+This repository is built based on the implementation from [DiffAug](https://github.com/mit-han-lab/data-efficient-gans/tree/master/DiffAugment-biggan-cifar).

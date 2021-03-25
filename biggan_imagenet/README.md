@@ -1,7 +1,6 @@
 # LeCam Regularization for training BigGAN on ImageNet
 
-We provide the testing code that synthesizes images with the provided trained
-model.
+We provide the testing code that synthesizes images with the trained model.
 
 ## Installation
 
@@ -28,7 +27,7 @@ You can specify the index of desired class with the `--class` command.
 
 ## Colab
 
-You can use the Colab `LeCamGAN_Demo.ipynb` to load our model and generate the images.
+You can use the Colab `LeCamGAN_Demo.ipynb` to load the model and generate the images.
 
 ## Notes
-This repository is built based one the Implementation from [compare\_gan](https://github.com/google/compare_gan). Our models are trained using TPUs.
+This repository is built based on the implementation from [compare\_gan](https://github.com/google/compare_gan). Our models are trained using TPUs.
